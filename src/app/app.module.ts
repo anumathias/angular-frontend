@@ -10,7 +10,9 @@ import {FormsModule} from '@angular/forms';
 import { UpdateCustomerComponent } from './update-customer/update-customer.component';
 import { HomeComponent } from './home/home.component';
 import { ViewDetailsComponent } from './view-details/view-details.component';
-import { LoginComponent } from './login/login.component'
+import { LoginComponent } from './login/login.component';
+import { ErrorComponent } from './error/error.component';
+
 
 
 @NgModule({
@@ -21,7 +23,8 @@ import { LoginComponent } from './login/login.component'
     UpdateCustomerComponent,
     HomeComponent,
     ViewDetailsComponent,
-    LoginComponent
+    LoginComponent,
+    ErrorComponent
 
   ],
   imports: [
