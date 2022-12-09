@@ -1,0 +1,30 @@
+<div class="login">
+  <div class="container col-lg-6">
+    <h1 class="text-center-1">ANUSHA </h1>
+    <h1 class="text-center-2">LOGIN </h1>
+    <div class="card">
+      <div class="card-body">
+        <form class="form-group1">
+
+          <div class="alert alert-success" *ngIf='loginSuccess'>{{successMessage}}</div>
+          <div class="form-group">
+            <label for="email">User Name :</label>
+            <input type="text" class="form-control" id="username" [(ngModel)]="user.username"
+              placeholder="Enter User Name" name="username">
+          </div>
+          <div class="alert alert-warning" *ngIf='invalidLogin'>{{errorMessage1}}</div>
+
+          <div class="form-group">
+            <label for="pwd">Password:</label>
+            <input type="password" class="form-control" [(ngModel)]="user.password" id="password"
+              placeholder="Enter password" name="password">
+          </div>
+          <div class="alert alert-warning" *ngIf='invalidLogin'>{{errorMessage2}}</div>
+
+        </form>
+        <br>
+        <button (click)=handleLogin() class="btn btn-success">Login</button>
+      </div>
+    </div>
+  </div>
+</div>

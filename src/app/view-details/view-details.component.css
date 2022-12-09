@@ -1,0 +1,35 @@
+.color{
+    background-color:  #ffffe6;	
+    height: 100vh;
+    
+}
+.form-container{
+    background-color:  #dabcf6;
+    height : 100vh;
+}
+
+.table-container{
+    background-color: white;
+}
+.text-center-1{
+    font-size: 4.5em;
+    font-weight: 500;
+    background: linear-gradient(to top, transparent 0%, #0e2431 70%);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    opacity: .1;
+    text-align: center;
+}
+.text-center-2{
+    font-size: 2.5em;
+    font-weight: 500;
+    transform: translateY(-55px);
+    text-align: center;
+
+}
+img{
+    position:absolute;
+    top:0px;
+    right:730px;
+    width:250px;
+}

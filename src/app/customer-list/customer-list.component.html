@@ -1,0 +1,60 @@
+<div class="form-container"> 
+    <h2  class="text-center-1"> Customer List</h2>
+    <h2  class="text-center-2"> Customer List</h2>
+    <div class="table-alignment">
+        <table class = "table-container" >
+            <thead>
+                <tr>
+                  <th>Id</th>
+                    <th>First Name</th>
+                    <th>Last Name</th>
+                    <th>Email</th>
+                    <th> Actions</th>
+                </tr>
+            </thead>
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+            <style>
+            .btnn {background-color:  white ;
+              border: none;
+              color:white(146, 150, 153);
+              padding: 8px 10px;
+              font-size: 18px;
+              cursor: pointer;
+            }
+            
+            /* Darker background on mouse-over */
+            .btnn:hover {
+              background-color: white;
+            }
+            </style>
+            
+            
+
+
+
+            <tbody>
+                <tr *ngFor = "let Customer of customers" >
+                  <td>{{Customer.id}}</td>
+                  <td>{{Customer.firstname}}</td>
+                  <td>{{Customer.lastname}}</td>
+                  <td>{{Customer.email}}</td>
+                  <td>
+                    <button (click) = "updateCustomer(Customer.id)"class="addMore" title="Update" class = "btnn "> <p> 🐱‍🏍</p></button>
+                    &nbsp;
+                    <button (click)="deleteCustomer(Customer.id)" class="addMore" title="Delete" class="btnn"> <p>☠</p></button>
+                    
+                  </td>
+                    
+                </tr>
+            </tbody>
+        </table>
+        <br>
+        <div class="col-md-12 text-center"><button  routerLink="/home" type="button" class="btn btn-primary">Back</button></div> 
+         <img src="https://cdn-icons-png.flaticon.com/512/6319/6319807.png">
+
+      </div>
+
+
+</div>

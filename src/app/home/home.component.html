@@ -1,0 +1,72 @@
+<!-- <div class="container-fluid"> -->
+  <div class="scrollmenu">
+<nav class="navbar navbar-expand-sm  navbar-light" style="background-color: #dabcf6; ">
+  <ul class="navbar-nav ">
+    <!-- <li class="nav-item">
+        <a routerLink="/customer" routerLinkActive="active" class ="nav-link" >Customer List</a>
+      </li> -->
+    <li class="nav-item">
+      <img class="add" src="https://cdn-icons-png.flaticon.com/512/1834/1834187.png">
+      <a routerLink="/create-customer" routerLinkActive="active" class="nav-link" style="color:black; padding-left:35px;"><b>Add Customer</b></a>
+    </li>
+    <li class="nav-item" >
+      <img class ="log" src="https://cdn-icons-png.flaticon.com/512/4522/4522247.png">
+      <a routerLink="" routerLinkActive="active" class="nav-link"
+        style="color:black; position: absolute;right: 10px;top: 6px;" ><b>Logout</b></a>
+    </li>
+  </ul>
+</nav>
+
+
+<div class="row">
+  <div class="col-3" style="padding-left:20px ;">
+
+    <div class="card" style="width: 18rem;">
+      <img class="card-img-top1"
+        src="https://cdn-icons-png.flaticon.com/512/6012/6012311.png"
+        height="200px" alt="Card image cap">
+      <div class="card-body">
+        <!-- <h5 class="card-title"></h5> -->
+        <!-- <p class="card-text">View all Customers 😎</p> -->
+        <a href="#"  class=""class="btn btn-primary" routerLink="/view-details">Account</a>
+      </div>
+    </div>
+  </div>
+
+  <div class="col-3" style="padding-left:40px ;">
+    <div class="card" style="width: 18rem;">
+      <img class="card-img-top2" src="https://cdn-icons-png.flaticon.com/512/8964/8964999.png" height="200px"
+        alt="Card image cap">
+      <div class="card-body">
+        <!-- <h5 class="card-title"></h5> -->
+        <!-- <p class="card-text">Update your details Here 🐱‍💻</p> -->
+        <a href="#" class="btn btn-warning" routerLink="/customer">Update</a>
+      </div>
+    </div>
+  </div>
+
+  <div class="col-3" style="padding-left:80px ;">
+    <div class="card" style="width: 18rem;">
+      <img class="card-img-top3"
+        src="https://cdn-icons-png.flaticon.com/512/3143/3143535.png"
+        height="200px" alt="Card image cap">
+      <div class="card-body">
+        <!-- <h5 class="card-title"></h5> -->
+        <!-- <p class="card-text">Delete your details Here 😈</p> -->
+        <a href="#" class="btn btn-danger" routerLink="/customer">Delete</a>
+      </div>
+    </div>
+  </div>
+
+
+  <footer class="footer">
+    <div class="container">
+      <b><span>Welcome😀👀</span></b>
+    </div>
+  </footer>
+
+  <div class="container">
+    <router-outlet></router-outlet>
+  </div>
+</div>
+</div>

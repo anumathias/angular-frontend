@@ -1,0 +1,35 @@
+
+.centered {
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+}
+
+.color{
+    background-color:  #dabcf6;	 
+    height: 100vh;
+    
+}
+.text-center-1{
+    font-size: 4.5em;
+    font-weight: 500;
+    background: linear-gradient(to top, transparent 0%, #0e2431 70%);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    opacity: .1;
+    text-align: center;
+}
+.text-center-2{
+    font-size: 2.5em;
+    font-weight: 500;
+    transform: translateY(-55px);
+    text-align: center;
+
+}
+img{
+    position:absolute;
+    top:100px;
+    right:570px;
+    width:400px;
+}

@@ -1,0 +1,43 @@
+.right{
+    margin-left: 80rem;
+}
+.card-img-top1{
+  width:200px;
+  position:relative;
+  left: 45px;
+  top:10px;
+}
+.card-img-top2{
+    width:190px;
+    position:relative;
+    left: 47px;
+    top:10px;
+  }
+
+  .card-img-top3{
+    width:190px;
+    position:relative;
+    left: 65px;
+    top:10px;
+  }
+  .log{
+    width:30px;
+    position:absolute;
+    right:75px;
+    top: 10px;
+  }
+  .add{
+    width:30px;
+    position:absolute;
+    /* right:110px; */
+  }
+  .btn{
+    position:relative;
+    left:80px;
+  }
+  .scrollmenu{
+    width: 100%; 
+    overflow: x 0;
+    position: fixed;
+  }
+ 

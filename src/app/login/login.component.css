@@ -1,0 +1,102 @@
+/* .login { */
+  /* background: #dd99ff; */
+  /* padding-bottom: 0%; */
+/* } */
+
+/* .text-center {
+  color: black;
+  font-family:sans-serif;
+  font-weight: 800;
+} */
+
+
+.text-center-1{
+  padding-top: 0px;
+  font-family:sans-serif;
+  font-size: 4.5em;
+  font-weight: 800;
+  background: linear-gradient(to top, transparent 0%, #0e2431 70%);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  opacity: .1;
+  text-align: center;
+}
+.text-center-2{
+  font-family:sans-serif;
+  font-size: 2.5em;
+  font-weight: 800;
+  transform: translateY(-55px);
+  text-align: center;
+
+}
+
+input[type=text] {
+  background: transparent;
+  border-bottom: 1px solid rgb(0, 0, 0);
+  border-left: none;
+  border-top: none;
+  border-right: none;
+}
+::placeholder{
+  opacity: 0.4;
+}
+
+input[type=password] {
+  background: transparent;
+  border-bottom: 1px solid rgb(0, 0, 0);
+  border-left: none;
+  border-top: none;
+  border-right: none;
+}
+
+.form-group {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.card-body {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border-radius: 20px;
+  padding: 60px 60px ;
+  background-color:  	 #e6ccff;
+
+}
+
+.card {
+  border-radius: 20px;
+}
+
+.btn{
+  border: none;
+  color: white;
+  padding: 10px 50px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  font-weight: 600;
+  
+
+}
+.btn-success{
+  background-color: white; 
+  color: black; 
+  border: 2px solid #dd99ff;
+
+}
+.btn-success:hover{
+  background-color: #dd99ff;
+  color: white;
+}
+.alert{
+  background-color:  #e6ccff;
+
+  stroke-width: 0%;
+  stroke-width: 0%;
+  margin: 0px 0px 0px ;
+  color: red;
+  padding: 0%;
+  stroke: #e6ccff;
+  border-radius: 0%;
+}
+

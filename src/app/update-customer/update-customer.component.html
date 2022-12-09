@@ -1,0 +1,31 @@
+
+<div class="col-md-6 offset-md-3">
+    <h3> Update  Customer</h3>
+    <form > 
+    
+        <!-- <div class="form-group">
+            <label> Id</label>
+            <input type="number" class ="form-control" id = "id"
+                [(ngModel)] = "customer.id" name = "id">
+        </div> -->
+        <div class="form-group">
+            <label> First Name</label>
+            <input type="text" class ="form-control" id = "firstname"
+                [(ngModel)] = "customer.firstname" name = "firstname">
+        </div>
+        <div class="form-group">
+            <label> Last Name</label>
+            <input type="text" class ="form-control" id = "lastname"
+                [(ngModel)] = "customer.lastname" name = "lastname">
+        </div>
+        <div class="form-group">
+            <label> email_id</label>
+            <input type="text" class ="form-control" id = "email"
+                [(ngModel)] = "customer.email" name = "email">
+        </div>
+    
+        <button (click)="onSubmit()" class = "btn btn-success" type ="submit" >Submit</button> &nbsp;
+        <button class = "btn btn-danger " routerLink="/home" type ="submit">Cancel</button>
+        </form>
+        
+    </div>  
